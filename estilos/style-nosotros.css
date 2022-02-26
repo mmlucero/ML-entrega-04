@@ -9,6 +9,10 @@ a{
     flex-direction: row;
 
 }
+a:hover{
+    transform: scale(1.2);
+    text-decoration: underline;
+}
 
 body{
     background-color: pink;
@@ -101,6 +105,11 @@ footer{
         flex-direction: row;
     }
 
+    a:hover{
+        transform: scale(1.2);
+        text-decoration: underline;
+    }
+
     .grid{
         display: grid;
         grid-template-columns: 100%;
@@ -170,6 +179,11 @@ footer{
         flex-direction: row;
     }
 
+    a:hover{
+        transform: scale(1.2);
+        text-decoration: underline;
+    }
+
     .grid{
         display: grid;
         grid-template-columns: 100%;
@@ -229,6 +243,11 @@ footer{
     
     a{
         text-decoration: none;
+    }
+
+    a:hover{
+        transform: scale(1.2);
+        text-decoration: underline;
     }
     
     header nav ol a{
@@ -294,4 +313,5 @@ footer{
     }
 
 }
+
     

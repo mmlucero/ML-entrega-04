@@ -23,6 +23,11 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    transform: scale(1.2);
+    text-decoration: underline;
+}
+
 
 header nav ol a{
     border: 0%;
